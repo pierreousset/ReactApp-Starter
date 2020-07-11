@@ -1,11 +1,12 @@
 import React from 'react';
+import { css } from '@emotion/core';
 
 function App() {
-    return(
-        <div>
-        My App Component
-        </div>
-    );
+  return(
+    <div css={css`color: red;`}>
+      My App Component
+    </div>
+  );
 }
 
 export default App;
